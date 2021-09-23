@@ -7,7 +7,7 @@ def bubble_sort(Lists):
 
 #Lets the user enter values of an array and verify by himself/herself
 array = []
-array_length = int(input(print("Enter the number of elements of array or enter the length of array")))
+array_length = int(input(print("Enter the number of elements of array or enter the length of array: ")))
 for i in range(array_length):
     value = int(input(print("Enter the value in the array")))
     array.append(value)
